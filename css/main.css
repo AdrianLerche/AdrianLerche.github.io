@@ -178,6 +178,10 @@ body {
   color: black;
 }
 
+a.coauthor:hover {
+  color: gray
+}
+
 
 .text{
   margin-top: 50px;
@@ -209,10 +213,6 @@ a.linkpaper:hover {
   color: black;
   target: _blank;
 }
-
-
-
-
 
 
 .papertitle {
