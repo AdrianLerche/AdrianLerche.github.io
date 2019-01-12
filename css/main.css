@@ -173,7 +173,7 @@ body {
 
 .coauthor {
   font-size:1.0em;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight:normal;
   color: black;
 }
@@ -198,7 +198,7 @@ a.coauthor:hover {
 
 .linkpaper {
   font-size:1.3em;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight:bold;
   color: black;
   target: _blank;
