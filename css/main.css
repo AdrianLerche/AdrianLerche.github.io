@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #000000;
+    color: #888888;
     font-size: 15px;
     line-height: 1.4;
     background-color: #FFFFFF;
@@ -173,13 +173,13 @@ body {
 
 .coauthor {
   font-size:1.0em;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight:normal;
   color: black;
 }
 
 a.coauthor:hover {
-  color: gray
+  text-decoration: underline;
 }
 
 
@@ -198,13 +198,13 @@ a.coauthor:hover {
 
 .linkpaper {
   font-size:1.3em;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight:bold;
   color: black;
   target: _blank;
 }
 a.linkpaper:hover {
-  color: gray
+  text-decoration: underline;
 }
 .linkpaper2 {
   font-size:1.3em;
@@ -214,6 +214,9 @@ a.linkpaper:hover {
   target: _blank;
 }
 
+.subtitle {
+  color: black;
+}
 
 .papertitle {
   margin-top: 50px;
@@ -224,7 +227,6 @@ a.linkpaper:hover {
   font-size:1.3em;
   text-decoration: none;
   font-weight:bold;
-  color: black;
 }
 
 .abstract {
@@ -242,7 +244,10 @@ a.linkpaper:hover {
     margin-bottom: 100px;
 }
 
-
+.footer a {
+  color: black;
+  text-decoration: underline;
+}
 
 
 
