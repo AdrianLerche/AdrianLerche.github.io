@@ -169,7 +169,7 @@ body {
 }
 .introduction img {
   float: left;
-  width:340px; 
+  width:300px; 
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
@@ -177,7 +177,7 @@ body {
 }
 
 .introduction p {
-  margin-top: 35px;
+  margin-top: 25px;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 20px;
