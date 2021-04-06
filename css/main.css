@@ -106,6 +106,12 @@ body {
 }
 
 
+span.brlarge {
+            display: block;
+            margin-bottom: 6em;
+        }
+
+
 /* Navigation System 
    ================= */
 .topnav{overflow: hidden;}
@@ -136,12 +142,17 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 0.85em;
     border-bottom: 3px solid transparent;
 }
+
 .nav a:hover {
-    border-bottom: 4px solid black;
+    text-decoration: underline;
 }
+
+/*.nav a:hover {
+    border-bottom: 4px solid black;
+}*/
 .nav a.active {
     border-bottom: 4px solid black;
 }
@@ -235,6 +246,14 @@ a.linkpaper:hover {
   margin-top: 50px;
 }
 
+.papertitle span {
+  font-size:1.3em;
+  text-decoration: none;
+  font-weight:bold;
+  target: _blank;
+}
+
+
 .progresstitle {
   margin-top: 20px;
 }
@@ -245,6 +264,15 @@ a.linkpaper:hover {
   font-weight:bold;
 }
 
+a.othertitle {
+  font-size:1.0em;
+  text-decoration: none;
+  color:black;
+}
+
+a.othertitle:hover {
+  text-decoration: underline;
+}
 
 .abstract {
   font-size: 0.85em;
@@ -253,7 +281,17 @@ a.linkpaper:hover {
   margin-right: 20px;
 }
 
+.totop {
+  font-size:1.0em;
+  text-decoration: none;
+  color: black;
+  float:right;
+  target: _blank;
+}
 
+a.totop:hover {
+  text-decoration: underline;
+}
 
 .footer {
     margin-top:100px;
