@@ -102,7 +102,7 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   max-width: 900px;
   margin: 0 auto;
-
+  position: relative;
 }
 
 
@@ -112,57 +112,10 @@ span.brlarge {
         }
 
 
+
 /* Navigation System 
    ================= */
 .topnav{overflow: hidden;}
-
-.title {
-  float: left;
-  overflow: hidden;
-}
-.title a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-bottom: 4px solid transparent;
-}
-
-.nav {
-  float: right;
-  overflow: hidden;
-}
-
-.nav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 0.85em;
-    border-bottom: 3px solid transparent;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-}
-
-/*.nav a:hover {
-    border-bottom: 4px solid black;
-}*/
-.nav a.active {
-    border-bottom: 4px solid black;
-}
-
-.title, .nav
-{
-    display:inline;
-}
-
-
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -176,9 +129,10 @@ span.brlarge {
 .dropdown-content {
   visibility: hidden;
   position: absolute;
+  right:20px;
   background-color: #f1f1f1;
   min-width: 240px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
   transition: visibility 0.25s;
 }
@@ -214,9 +168,17 @@ span.brlarge {
   text-align:center;
 }
 
+.text{
+  margin-top: 50px;
+  margin-bottom: 120px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .introduction {
   overflow: hidden;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  
 }
 .introduction img {
   float: left;
@@ -245,13 +207,6 @@ a.coauthor:hover {
   text-decoration: underline;
 }
 
-
-.text{
-  margin-top: 50px;
-  margin-bottom: 120px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
 
 .indent {
   margin-left: 20px;
@@ -337,7 +292,7 @@ a.totop:hover {
     margin-top:100px;
     font-size: 0.75em;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 400px;
 }
 
 .footer a {
